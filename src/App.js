@@ -3,7 +3,10 @@ import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
-import News from './components/News'
+import News from './pages/News'
+import Contact from './pages/Contact'
+import About from './pages/About'
+import Services from './pages/Services'
 
 class App extends Component {
   render() {
@@ -12,7 +15,10 @@ class App extends Component {
         <div>
           <NavBar />
           <Route exact path='/' component={Home} />
-          <Route path='/about' component={News} />
+          <Route path='/news' component={News} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/about' component={About} />
+          <Route path='/services' component={Services} />
         </div>
       </Router>
     );
