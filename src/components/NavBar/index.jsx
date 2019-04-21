@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './index.css'
-import { Nav, Navbar, NavDropdown, Form, FormControl, Button, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom'
+import { Nav, Navbar, Form, FormControl, Button, Container } from 'react-bootstrap';
 
 class NavBar extends Component {
 
@@ -27,7 +26,6 @@ class NavBar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/news">News</Nav.Link>
                             <Nav.Link href="/about">About</Nav.Link>
                             <Nav.Link href="/services">Services</Nav.Link>
                             <Nav.Link href="/contact">Contact</Nav.Link>
