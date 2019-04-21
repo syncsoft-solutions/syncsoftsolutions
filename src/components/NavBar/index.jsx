@@ -13,7 +13,16 @@ class NavBar extends Component {
         return (
             <Container>
                 <Navbar bg="light" expand="lg">
-                    <Navbar.Brand href="/">SyncSoft Solutions</Navbar.Brand>
+                    <Navbar.Brand href="/">
+                        <img
+                            src="assets/iFlow2.png"
+                            width="30"
+                            height="30"
+                            className="d-inline-block align-top"
+                            alt=""
+                        />
+                        &nbsp;&nbsp;SyncSoft Solutions
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
