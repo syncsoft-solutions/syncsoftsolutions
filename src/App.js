@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Home from './components/Home'
+import Home from './pages/Home'
 import News from './components/News'
 
 class App extends Component {

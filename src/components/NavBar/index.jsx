@@ -4,6 +4,11 @@ import { Nav, Navbar, NavDropdown, Form, FormControl, Button, Container } from '
 import { Link } from 'react-router-dom'
 
 class NavBar extends Component {
+
+    searchSite = (evt) => {
+        console.log('Test')
+    }
+
     render() {
         return (
             <Container>
@@ -26,7 +31,7 @@ class NavBar extends Component {
                         </Nav>
                         <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search</Button>
+                        <Button variant="outline-success" onClick={ this.searchSite }>Search</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Navbar>
