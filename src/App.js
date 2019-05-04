@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Home from './pages/Home'
+import UnderConstruction from './pages/UnderConstruction'
 import News from './pages/News'
 import Contact from './pages/Contact'
 import About from './pages/About'
@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
-          <Route exact path='/' component={Home} />
+          <Route exact path='/' component={UnderConstruction} />
           <Route path='/news' component={News} />
           <Route path='/contact' component={Contact} />
           <Route path='/about' component={About} />
