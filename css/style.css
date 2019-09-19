@@ -11,3 +11,8 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
+/* Header */
+header {
+    background-color: #35424a;
+}
