@@ -17,5 +17,12 @@ header {
     background-color: #35424a;
     border-bottom: orangered 3px solid;
     padding-top: 30px;
-    color: white;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
 }
