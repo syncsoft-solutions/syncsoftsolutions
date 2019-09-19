@@ -15,4 +15,7 @@ body {
 /* Header */
 header {
     background-color: #35424a;
+    border-bottom: orangered 3px solid;
+    padding-top: 30px;
+    color: white;
 }
