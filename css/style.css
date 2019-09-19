@@ -20,6 +20,14 @@ header {
     color: #ffffff;
 }
 
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
 header a {
     color: #ffffff;
     text-decoration: none;
