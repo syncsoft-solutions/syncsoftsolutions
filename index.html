@@ -9,81 +9,208 @@
     <meta name="keywords" content="database development, information management system development, 
     web development">
     <meta name="author" content="Alexius Academia">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Syncsoft Solutions | Welcome</title>
 </head>
 
-<body>
+<body class="has-navbar-fixed-top">
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="branding">
-                <h1>Syncsoft Solutions</h1>
+        <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="container">
+
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+                        <span class="is-size-4">Syncsoft Solutions</span>
+                    </a>
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbar-collapse">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar-collapse" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="#" class="navbar-item">Home</a>
+                        <a href="#" class="navbar-item">Services</a>
+                        <a href="#" class="navbar-item">Contact</a>
+
+                    </div>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
 
-    <!-- Showcase area -->
-    <section id="showcase">
-        <div class="container">
-            <h1>Professional Software Development</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ab nisi aut,
-                asperiores distinctio, esse ut optio pariatur mollitia eligendi consectetur eveniet
-                ex suscipit numquam ad enim praesentium quos fugiat.</p>
-        </div>
-    </section>
+    <!-- main body -->
+    <main>
+        <!-- hero section -->
+        <div class="hero is-primary is-large">
+            <div class="hero-body">
+                <div class="container">
 
-    <!-- Subscribe -->
-    <section id="newsletter">
-        <div class="container">
-            <h1>Subscribe</h1>
-            <form action="">
-                <input type="email" name="" placeholder="Email" id="">
-                <input type="button" value="Submit">
-            </form>
+                    <div class="columns">
+                        <div class="column is-5 is-offset-1">
+                            <h1 class="is-size-1">Some thingy</h1>
+                        </div>
+                        <div class="column is-5">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi sapiente
+                                laboriosam tempore dolorum dicta omnis reprehenderit, sit atque rem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
 
-    <section id="highlights">
-        <div class="container">
-            <img src="" alt="">
-            <h3>Title 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio officiis quidem reprehenderit voluptatum,
-                r
-                epellat voluptas necessitatibus minima mollitia.
-                Minima minus iste ullam blanditiis quisquam? Laboriosam magnam maiores cum consectetur consequatur?
-            </p>
-        </div>
-        <div class="container">
-            <img src="" alt="">
-            <h3>Title 2</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio officiis quidem reprehenderit voluptatum,
-                r
-                epellat voluptas necessitatibus minima mollitia.
-                Minima minus iste ullam blanditiis quisquam? Laboriosam magnam maiores cum consectetur consequatur?
-            </p>
-        </div>
-        <div class="container">
-            <img src="" alt="">
-            <h3>Title 3</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio officiis quidem reprehenderit voluptatum,
-                r
-                epellat voluptas necessitatibus minima mollitia.
-                Minima minus iste ullam blanditiis quisquam? Laboriosam magnam maiores cum consectetur consequatur?
-            </p>
-        </div>
-    </section>
+        <!-- Services -->
+        <section class="section is-medium">
+            <div class="container">
+                <h1 class="title has-text-centered">How can we help you?</h1>
+                <h2 class="subtitle has-text-centered has-textlight">Because you need a partner for everything - and we
+                    can be everything.</h2>
+                <br>
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img class="is-rounded" src="http://placekitten.com/500">
+                            </figure>
+                            <br>
+                            <h3 class="title is-size-4 has-text-centered">Feature 1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel excepturi mollitia
+                                voluptate accusamus magni, quis sed. Eos sed provident id.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img class="is-rounded" src="http://placekitten.com/500">
+                            </figure>
+                            <br>
+                            <h3 class="title is-size-4 has-text-centered">Feature 2</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel excepturi mollitia
+                                voluptate accusamus magni, quis sed. Eos sed provident id.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <figure class="image is-square">
+                                <img class="is-rounded" src="http://placekitten.com/500">
+                            </figure>
+                            <br>
+                            <h3 class="title is-size-4 has-text-centered">Feature 3</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel excepturi mollitia
+                                voluptate accusamus magni, quis sed. Eos sed provident id.</p>
+                        </div>
+                    </div>
+                </div>
 
-    <footer>
-        <p>Syncsoft Solutions &copy; 2019</p>
+            </div>
+        </section>
+
+        <!-- Records -->
+        <section class="section has-background-light">
+            <div class="container">
+                <nav class="level is-mobile">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <h1 class="title has-text-centered">Our track record</h1>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Projects</p>
+                            <p class="title">3,456</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Packages</p>
+                            <p class="title">123</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Codes</p>
+                            <p class="title">456K</p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Coffee</p>
+                            <p class="title">456K</p>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section class="section is-medium">
+            <div class="container">
+                <h1 class="title has-text-centered ">Meet our team.</h1>
+            </div>
+        </section>
+
+        <!-- Contact us -->
+        <section class="section has-background-dark is-medium">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title has-text-white">Contact Us</h1>
+                        <p class="is-size-4 has-text-light">Don't miss out on your greatest investment.</p>
+                        <br>
+                        <div class="columns">
+                            <div class="column is-narrow">
+                                <p class="has-text-primary">Call us.</p>
+                                <p class="has-text-light">+63 0912 345 6789</p>
+                            </div>
+                            <div class="column is-narrow">
+                                <p class="has-text-primary">Email us.</p>
+                                <p class="has-text-light">syncsoftsolutions@syncsoftsolutions.com</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control">
+                                    <input type="text" class="input" />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input type="email" class="input" />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">What's your great idea?</label>
+                                <div class="control">
+                                    <textarea type="textarea" class="textarea"></textarea>
+                                </div>
+                            </div>
+                            <button class="button is-medium is-info">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer has-background-black has-text-centered">
+        <p class="has-text-light">Syncsoft Solutions &copy; 2019</p>
     </footer>
 
 </body>
