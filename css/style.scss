@@ -1,6 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
-$family-sans-serif: "Montserrat Alternates", sans-serif;
+$family-sans-serif: "Montserrat", sans-serif;
+$white: #fff;
+$black: #00171f;
+$prussian-blue: #003459;
+$cerulean: #007ea7;
+$vivid-cerulean: #00a8e8;
+
+$primary: $vivid-cerulean;
+
+$navbar-item-img-max-height: 75px;
 
 // Import only what you need from Bulma
 @import "./bulma/utilities/_all.sass";
