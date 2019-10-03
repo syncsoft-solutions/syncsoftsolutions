@@ -9,6 +9,7 @@
   <meta name="keywords" content="database development, information management system development, 
     web development" />
   <meta name="author" content="Alexius Academia" />
+  <meta name="designer" content="Jan Monsalud" />
 
   <link rel="stylesheet" href="css/style.css" />
 
@@ -28,14 +29,14 @@
           </a>
 
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-            data-target="navbar-collapse">
+            >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
 
-        <div id="navbar-collapse" class="navbar-menu">
+        <div class="navbar-menu">
           <div class="navbar-end">
             <a href="#top" class="navbar-item">Home</a>
             <a href="#services" class="navbar-item">Services</a>
@@ -60,7 +61,7 @@
               </p>
               <br>
               <a href="#contact" class="button is-primary">Contact Us</a>
-              <a href="#" class="button is-primary is-outlined">Learn More</a>
+              <a href="#services" class="button is-primary is-outlined">Learn More</a>
             </div>
             <div class="column is-6">
               <figure class="image">
@@ -83,46 +84,47 @@
         </h2>
         <br />
         <div class="columns">
-          <div class="column">
-            <div class="box">
+          <div class="column is-inline-flex">
+            <a class="box">
               <figure class="image is-4by3">
                 <img height="200" src="/img/lifestyle.png" alt="lifestyle" />
               </figure>
               <br />
-              <h3 class="title is-size-4 has-text-centered">Database Management Information System Development</h3>
+              <h3 class="title is-size-4 has-text-centered">Management Information Systems</h3>
               <p>
                 Using modern methods and technologies, we provide system solutions
                 that caters our customer needs and specifications through closed coordination.
               </p>
-            </div>
+            </a>
           </div>
-          <div class="column">
-            <div class="box">
-              <figure class="image is-4by3"">
+          <div class="column is-inline-flex">
+
+            <a class="box">
+              <figure class="image is-4by3">
                 <img height=" 200" src="/img/personal_information.png" alt="personal information" />
               </figure>
               <br />
-              <h3 class="title is-size-4 has-text-centered">Custom Desktop Software</h3>
+              <h3 class="title is-size-4 has-text-centered">Web Development</h3>
               <p>
                 If you needed a custom-built desktop software, we can
                 build it for you. From simple data management to office solutions.
               </p>
-            </div>
+            </a>
           </div>
 
-          <div class="column">
-            <div class="box">
-              <figure class="image is-4by3"">
+          <div class="column is-inline-flex">
+            <a class="box">
+              <figure class="image is-4by3">
                 <img height=" 200" src="/img/visualization.png" alt="visualization" />
               </figure>
               <br />
-              <h3 class="title is-size-4 has-text-centered">Cloud Platform Solution</h3>
+              <h3 class="title is-size-4 has-text-centered">Cloud Platform Solutions</h3>
               <p>
                 Since data is on of priorities on each organization, we provide a centralized
                 online platform to take care of data management ensuring availability
                 anywhere, anytime.
               </p>
-            </div>
+            </a>
           </div>
 
         </div>
@@ -139,18 +141,12 @@
               Don't miss out on your greatest investment.
             </p>
             <br />
-            <div class="columns">
-              <div class="column is-narrow">
-                <p class="has-text-primary">Call us.</p>
-                <p class="has-text-light">+63 949 419 6250</p>
-              </div>
-              <div class="column is-narrow">
-                <p class="has-text-primary">Email us.</p>
-                <p class="has-text-light">
-                  syncsoftsolutions.software@gmail.com
-                </p>
-              </div>
-            </div>
+            <p class="has-text-primary">Call us.</p>
+            <p class="has-text-light">+63 949 419 6250</p>
+            <p class="has-text-primary">Email us.</p>
+            <p class="has-text-light">
+              syncsoftsolutions.software@gmail.com
+            </p>
           </div>
           <div class="column">
             <div class="box">
@@ -181,8 +177,46 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer has-background-black has-text-centered">
-      <p class="has-text-light">Syncsoft Solutions &copy; 2019</p>
+    <footer class="footer has-background-black">
+      <div class="container">
+
+        <div class="columns is-centered">
+          <div class="column is-2">
+            <p class="is-size-4 has-text-primary">Company</p>
+            <ul>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">About Us</a></li>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="column is-2">
+            <p class="is-size-4 has-text-primary">Services</p>
+            <ul>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Cloud Platforms</a></li>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Custom Software</a></li>
+              <li><a href="#" target="_blank" rel="noopener noreferrer">Web Development</a></li>
+            </ul>
+          </div>
+          <div class="column is-8">
+            <p class="is-size-4 has-text-primary">Get in touch</p>
+            <div class="columns">
+              <div class="column is-3">
+                <p class="has-text-grey">Purok 6, Tampo,</p>
+                <p class="has-text-grey">Botolan, Zambales</p>
+                <br>
+                <p class="has-text-grey">+63 949 419 6250</p>
+                <p class="has-text-grey">
+                  syncsoftsolutions.software@gmail.com
+                </p>
+              </div>
+              <div class="column is-9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, vero?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="footer-item has-text-light  has-text-centered">Syncsoft Solutions &copy; 2019</p>
+      </div>
     </footer>
 
     <script src="/js/main.js" async></script>

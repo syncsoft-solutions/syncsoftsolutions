@@ -1,0 +1,12 @@
+// Custom Helper Classes
+@for $i from 0 through 10 {
+  // Shadows
+  .shadow-#{$i} {
+    box-shadow: 0 $i * 1px $i * 4px rgba(black, $i * 0.04);
+  }
+
+  // Paddings
+  .p-#{$i} {
+    padding: $i * 0.25rem;
+  }
+}

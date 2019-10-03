@@ -13,15 +13,16 @@ $primary: $vivid-cerulean;
 $navbar-item-img-max-height: 3.25rem;
 
 // Import only what you need from Bulma
-@import "./bulma/utilities/_all.sass";
-@import "./bulma/base/_all.sass";
-@import "./bulma/elements/_all.sass";
-@import "./bulma/elements/_all.sass";
-@import "./bulma/elements/_all.sass";
-@import "./bulma/form/_all.sass";
-@import "./bulma/components/_all.sass";
-@import "./bulma/layout/_all.sass";
-@import "./bulma/grid/_all.sass";
+@import "./bulma/utilities/all";
+@import "./bulma/base/all";
+@import "./bulma/elements/all";
+@import "./bulma/elements/all";
+@import "./bulma/elements/all";
+@import "./bulma/form/all";
+@import "./bulma/components/all";
+@import "./bulma/layout/all";
+@import "./bulma/grid/all";
+@import "helpers";
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
@@ -31,6 +32,27 @@ body.has-navbar-fixed-top {
 .navbar-burger {
   height: 4.25rem;
   width: 4.25rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: $grey;
+}
+
+footer a:hover {
+  color: $white;
+}
+
+a.box {
+  @extend .shadow-3;
+  @extend .p-10;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    @extend .shadow-5;
+    @extend .p-5;
+  }
 }
 
 // Responsive font sizes
