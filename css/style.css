@@ -12915,7 +12915,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .navbar-item img {
-  max-height: 75px;
+  max-height: 3.25rem;
 }
 
 .navbar-item.has-dropdown {
@@ -17008,5 +17008,15 @@ label.panel-block:hover {
             flex: none;
     width: 100%;
   }
+}
+
+html.has-navbar-fixed-top,
+body.has-navbar-fixed-top {
+  padding-top: 4.25rem;
+}
+
+.navbar-burger {
+  height: 4.25rem;
+  width: 4.25rem;
 }
 /*# sourceMappingURL=style.css.map */
