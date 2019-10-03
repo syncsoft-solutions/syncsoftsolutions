@@ -20,11 +20,11 @@
 <body class="has-navbar-fixed-top">
   <!-- Header -->
   <header>
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav id='navbar' class=" navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-            <img src="/img/logo.png">
+            <img src="/img/logo.png" alt="syncsoft logo">
           </a>
 
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -47,9 +47,9 @@
   </header>
 
   <!-- main body -->
-  <main id="top">
+  <main">
     <!-- hero section -->
-    <div class="hero">
+    <div class="hero" id="top">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
@@ -59,12 +59,12 @@
                 Bringing you the power of a centralized cloud platform.
               </p>
               <br>
-              <a href="#" class="button is-primary">Contact Us</a>
+              <a href="#contact" class="button is-primary">Contact Us</a>
               <a href="#" class="button is-primary is-outlined">Learn More</a>
             </div>
             <div class="column is-6">
               <figure class="image">
-                <img src="/img/hero-image.png" alt="">
+                <img src="/img/hero-image.png" alt="hero image">
               </figure>
               </figure>
 
@@ -85,98 +85,52 @@
         <div class="columns">
           <div class="column">
             <div class="box">
-              <figure class="image is-square">
-                <img class="is-rounded" src="/img/lifestyle.png" />
+              <figure class="image is-4by3">
+                <img height="200" src="/img/lifestyle.png" alt="lifestyle" />
               </figure>
               <br />
               <h3 class="title is-size-4 has-text-centered">Database Management Information System Development</h3>
               <p>
-                Using modern methods and technologies, we provide system solutions 
+                Using modern methods and technologies, we provide system solutions
                 that caters our customer needs and specifications through closed coordination.
               </p>
             </div>
           </div>
           <div class="column">
             <div class="box">
-              <figure class="image is-square">
-                <img class="is-rounded" src="/img/personal_information.png" />
+              <figure class="image is-4by3"">
+                <img height=" 200" src="/img/personal_information.png" alt="personal information" />
               </figure>
               <br />
               <h3 class="title is-size-4 has-text-centered">Custom Desktop Software</h3>
               <p>
-                If you needed a custom-built desktop software, we can 
+                If you needed a custom-built desktop software, we can
                 build it for you. From simple data management to office solutions.
               </p>
             </div>
           </div>
-          
+
           <div class="column">
             <div class="box">
-              <figure class="image is-square">
-                <img class="is-rounded" src="/img/visualization.png" />
+              <figure class="image is-4by3"">
+                <img height=" 200" src="/img/visualization.png" alt="visualization" />
               </figure>
               <br />
               <h3 class="title is-size-4 has-text-centered">Cloud Platform Solution</h3>
               <p>
                 Since data is on of priorities on each organization, we provide a centralized
-                online platform to take care of data management ensuring availability 
+                online platform to take care of data management ensuring availability
                 anywhere, anytime.
               </p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
 
-    <!-- Records -->
-    <!--
-    <section class="section has-background-light">
-      <div class="container">
-        <nav class="level is-mobile">
-          <div class="level-item has-text-centered">
-            <div>
-              <h1 class="title has-text-centered">Our track record</h1>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Projects</p>
-              <p class="title">3,456</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Packages</p>
-              <p class="title">123</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Codes</p>
-              <p class="title">456K</p>
-            </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="heading">Coffee</p>
-              <p class="title">456K</p>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    -->
-
-    <!-- About us -->
-    <!-- <section class="section">
-      <div class="container">
-        <h1 class="title has-text-centered ">Meet our team.</h1>
-      </div>
-    </section> -->
-
     <!-- Contact us -->
-    <section class="section has-background-dark is-medium" id="contact">
+    <section class="section has-background-dark" id="contact">
       <div class="container">
         <div class="columns">
           <div class="column">
@@ -201,21 +155,21 @@
           <div class="column">
             <div class="box">
               <div class="field">
-                <label class="label">Name</label>
+                <label class="label" for="name">Name</label>
                 <div class="control">
-                  <input type="text" class="input" />
+                  <input type="text" class="input" id="name" />
                 </div>
               </div>
               <div class="field">
-                <label class="label">Email</label>
+                <label class="label" for="email">Email</label>
                 <div class="control">
-                  <input type="email" class="input" />
+                  <input type="email" class="input" id="email" />
                 </div>
               </div>
               <div class="field">
-                <label class="label">What's your great idea?</label>
+                <label class="label" for="message">What's your great idea?</label>
                 <div class="control">
-                  <textarea type="textarea" class="textarea"></textarea>
+                  <textarea type="textarea" class="textarea" id="message"></textarea>
                 </div>
               </div>
               <button class="button is-medium is-info">Submit</button>
@@ -224,12 +178,14 @@
         </div>
       </div>
     </section>
-  </main>
+    </main>
 
-  <!-- Footer -->
-  <footer class="footer has-background-black has-text-centered">
-    <p class="has-text-light">Syncsoft Solutions &copy; 2019</p>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer has-background-black has-text-centered">
+      <p class="has-text-light">Syncsoft Solutions &copy; 2019</p>
+    </footer>
+
+    <script src="/js/main.js" async></script>
 </body>
 
 </html>

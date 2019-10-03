@@ -10,7 +10,7 @@ $vivid-cerulean: #00a8e8;
 
 $primary: $vivid-cerulean;
 
-$navbar-item-img-max-height: 75px;
+$navbar-item-img-max-height: 3.25rem;
 
 // Import only what you need from Bulma
 @import "./bulma/utilities/_all.sass";
@@ -22,3 +22,28 @@ $navbar-item-img-max-height: 75px;
 @import "./bulma/components/_all.sass";
 @import "./bulma/layout/_all.sass";
 @import "./bulma/grid/_all.sass";
+
+html.has-navbar-fixed-top,
+body.has-navbar-fixed-top {
+  padding-top: 4.25rem;
+}
+
+.navbar-burger {
+  height: 4.25rem;
+  width: 4.25rem;
+}
+
+// Responsive font sizes
+// html {
+//   font-size: 16px;
+//   @include tablet {
+//     font-size: 20px;
+//   }
+//   @include desktop {
+//     font-size: 24px;
+//   }
+// }
+
+// #navbar {
+//   transition: top 0.3s;
+// }
