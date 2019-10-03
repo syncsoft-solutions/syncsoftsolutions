@@ -15,14 +15,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 /** Burger menu implementation */
-document.addEventListener('DOMContentLoaded', () => {
-  var burger = document.querySelector('.navbar-burger')
-  var menu = document.querySelector('.navbar-menu');
-  burger.addEventListener('click', () => {
-    burger.classList.toggle('is-active');
-    menu.classList.toggle('is-active');
-  });
+var burger = document.querySelector('.navbar-burger')
+var menu = document.querySelector('.navbar-menu');
+burger.addEventListener('click', () => {
+  burger.classList.toggle('is-active');
+  menu.classList.toggle('is-active');
 });
+
 
 /**  hide/show navbar when scrolling */
 // var prevScrollpos = window.pageYOffset;
