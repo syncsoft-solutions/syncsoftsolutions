@@ -51,7 +51,7 @@ a.box {
   &:hover,
   &:focus {
     @extend .shadow-5;
-    @extend .p-5;
+    // @extend .p-5;
   }
 }
 
