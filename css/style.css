@@ -17060,7 +17060,7 @@ label.panel-block:hover {
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.p-5, a.box:hover, a.box:focus {
+.p-5 {
   padding: 1.25rem;
 }
 
