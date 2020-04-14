@@ -34,3 +34,7 @@ burger.addEventListener('click', () => {
 //   }
 //   prevScrollpos = currentScrollPos;
 // }
+
+// Set the current year to the footer.
+let currYear = (new Date()).getFullYear()
+document.getElementById('cprightYear').innerText = currYear
